@@ -13,7 +13,7 @@
 
     <item
         android:id="@+id/navigation_findit"
-        android:icon="@drawable/ic_search_black_24"
+        android:icon="@drawable/outline_people_24"
         android:title="@string/title_findit" />
     <item
         android:id="@+id/navigation_chat"
