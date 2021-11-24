@@ -12,19 +12,19 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.abdelah.nav_bar_bottom.databinding.FragmentNotificationsBinding;
+import com.abdelah.nav_bar_bottom.databinding.FragmentFinditBinding;
 
 public class FinditFragment extends Fragment {
 
     private FinditViewModel finditViewModel;
-    private FragmentNotificationsBinding binding;
+    private FragmentFinditBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         finditViewModel =
                 new ViewModelProvider(this).get(FinditViewModel.class);
 
-        binding = FragmentNotificationsBinding.inflate(inflater, container, false);
+        binding = FragmentFinditBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         final TextView textView = binding.textNotifications;

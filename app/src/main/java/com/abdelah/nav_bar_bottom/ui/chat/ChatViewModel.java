@@ -1,19 +1,23 @@
-package com.abdelah.nav_bar_bottom.ui.findit;
+package com.abdelah.nav_bar_bottom.ui.chat;
+
+import android.widget.TextView;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class FinditViewModel extends ViewModel {
+public class ChatViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public FinditViewModel() {
+    public ChatViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is Find It fragment");
+        mText.setValue("This is Chat fragment");
     }
 
     public LiveData<String> getText() {
         return mText;
     }
+
+
 }

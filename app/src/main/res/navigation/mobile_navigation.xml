@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_setting">
+    app:startDestination="@+id/navigation_findit">
 
     <fragment
         android:id="@+id/navigation_setting"
@@ -21,7 +21,7 @@
         android:id="@+id/navigation_findit"
         android:name="com.abdelah.nav_bar_bottom.ui.findit.FinditFragment"
         android:label="@string/title_findit"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_findit" />
     <fragment
         android:id="@+id/navigation_chat"
         android:name="com.abdelah.nav_bar_bottom.ui.chat.ChatFragment"

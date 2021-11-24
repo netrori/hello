@@ -10,7 +10,7 @@ public class LocalisationViewModel extends ViewModel {
 
     public LocalisationViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is dashboard fragment");
+        mText.setValue("This is Localisation fragment");
     }
 
     public LiveData<String> getText() {

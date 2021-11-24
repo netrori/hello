@@ -1,19 +1,22 @@
-package com.abdelah.nav_bar_bottom.ui.findit;
+package com.abdelah.nav_bar_bottom.ui.manageProfil;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class FinditViewModel extends ViewModel {
+public class ProfilViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public FinditViewModel() {
+    public ProfilViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is Find It fragment");
+        mText.setValue("This is Profil management fragment");
     }
 
     public LiveData<String> getText() {
         return mText;
     }
+
+
+
 }
